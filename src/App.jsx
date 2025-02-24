@@ -8,6 +8,7 @@ import SignUp from "./components/Auth/SignUp"; // Create this component if not a
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Register from "./components/Auth/Register";
 
 const App = () => {
   React.useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/about" element={<div>About Page</div>} />
           <Route path="/contact" element={<div>Contact Page</div>} />
           <Route path="*" element={<div>404 - Page Not Found</div>} />
