@@ -29,7 +29,7 @@ const Hero = () => {
             Smart Football Playability Checker
           </h1>
           <p className="mt-6 text-lg leading-8 text-secondary dark:text-primary">
-            Our cutting-edge IoT device monitors temperature, air pressure, and humidity to determine if conditions are optimal for a football match. Stay ahead of the game with real-time weather analysis.
+            Our cutting-edge IoT device monitors temperature, Wind Speed, and humidity to determine if conditions are optimal for a football match. Stay ahead of the game with real-time weather analysis.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <motion.a 

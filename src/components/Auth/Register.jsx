@@ -56,41 +56,33 @@ const Register = () => {
             />
           </motion.div>
 
-          {/* IoT Project Name */}
+          {/* Location */}
           <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }} className="mb-4">
-            <label className="block mb-2 font-extrabold">IoT Project Name</label>
+            <label className="block mb-2 font-extrabold">Location</label>
             <input
               className="w-full p-4 text-lg font-extrabold placeholder-gray-700 bg-white dark:bg-gray-800 shadow border-2 border-gray-700 dark:border-gray-600 rounded focus:ring-2 focus:ring-indigo-600 focus:outline-none transition-all duration-200"
               type="text"
-              placeholder="Smart Home Automation"
+              placeholder="New York, USA"
             />
           </motion.div>
 
-          {/* IoT Project Description */}
+          {/* Password */}
           <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }} className="mb-4">
-            <label className="block mb-2 font-extrabold">Project hi Description</label>
-            <textarea
-              className="w-full p-4 text-lg font-extrabold placeholder-gray-700 bg-white dark:bg-gray-800 shadow border-2 border-gray-700 dark:border-gray-600 rounded focus:ring-2 focus:ring-indigo-600 focus:outline-none transition-all duration-200"
-              placeholder="Describe your IoT project in brief"
-            />
-          </motion.div>
-
-          {/* IoT Technologies Used */}
-          <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }} className="mb-4">
-            <label className="block mb-2 font-extrabold">IoT Technologies Used</label>
+            <label className="block mb-2 font-extrabold">Password</label>
             <input
               className="w-full p-4 text-lg font-extrabold placeholder-gray-700 bg-white dark:bg-gray-800 shadow border-2 border-gray-700 dark:border-gray-600 rounded focus:ring-2 focus:ring-indigo-600 focus:outline-none transition-all duration-200"
-              type="text"
-              placeholder="Arduino, Raspberry Pi, IoT Cloud"
+              type="password"
+              placeholder="Enter your password"
             />
           </motion.div>
 
-          {/* Project Goal */}
+          {/* Confirm Password */}
           <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }} className="mb-4">
-            <label className="block mb-2 font-extrabold">Project Goal</label>
-            <textarea
+            <label className="block mb-2 font-extrabold">Confirm Password</label>
+            <input
               className="w-full p-4 text-lg font-extrabold placeholder-gray-700 bg-white dark:bg-gray-800 shadow border-2 border-gray-700 dark:border-gray-600 rounded focus:ring-2 focus:ring-indigo-600 focus:outline-none transition-all duration-200"
-              placeholder="What do you hope to achieve with your IoT project?"
+              type="password"
+              placeholder="Confirm your password"
             />
           </motion.div>
 

@@ -27,8 +27,8 @@ const DropdownLinks = [
     link: "/humidity",
   },
   {
-    name: "Air Pressure",
-    link: "/air-pressure",
+    name: "Wind speed",
+    link: "/wind-speed",
   },
 ];
 
