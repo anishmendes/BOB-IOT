@@ -68,7 +68,7 @@ const Register = () => {
 
           {/* IoT Project Description */}
           <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }} className="mb-4">
-            <label className="block mb-2 font-extrabold">Project Description</label>
+            <label className="block mb-2 font-extrabold">Project hi Description</label>
             <textarea
               className="w-full p-4 text-lg font-extrabold placeholder-gray-700 bg-white dark:bg-gray-800 shadow border-2 border-gray-700 dark:border-gray-600 rounded focus:ring-2 focus:ring-indigo-600 focus:outline-none transition-all duration-200"
               placeholder="Describe your IoT project in brief"
