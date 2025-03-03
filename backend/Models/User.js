@@ -11,11 +11,19 @@ const UserSchema = new Schema({
         required: true,
         unique: true
     },
+    phone: {
+        type: String,
+        required: true,
+    },
+    location: {
+        type: String,
+        required: true,
+    },
     password: {
         type: String,
         required: true,
-    }
-});
+    },
+}, { timestamps: true });
 
 const UserModel = mongoose.model('users', UserSchema);
 module.exports = UserModel;
